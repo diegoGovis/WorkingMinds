@@ -11,5 +11,13 @@ public class Main {
 		
 		System.out.println(Arrays.toString(arrayFinal8));
 		System.out.println(Arrays.toString(arrayFinal));
+		
+		
+		int dimensao = 4;
+		Teste2 teste2 = new Teste2();
+		int [][] spiralArray = teste2.spiralMatrix(dimensao);
+		for(int i = 0; i < dimensao; i++) {
+			System.out.println(Arrays.toString(spiralArray[i]));
+		}	
 	}
 }
